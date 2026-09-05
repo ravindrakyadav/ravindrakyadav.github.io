@@ -1,160 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0a0a0a">
-  <meta name="description" content="Ravindra Yadav — Technology, Infrastructure, Networking, Security, Virtualization and Automation.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Ravindra Yadav — Technology and infrastructure professional focused on Linux, networking, virtualization, containers, security, storage and automation.">
+  <meta name="robots" content="index,follow">
   <title>Ravindra Yadav | Technology & Infrastructure</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="cursor-glow"></div>
-
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Ravindra Yadav home">
-      <span class="brand-mark">RY</span>
-      <span class="brand-name">RAVINDRA <b>YADAV</b></span>
-    </a>
-    <nav class="nav">
-      <a href="#about">About</a>
-      <a href="#expertise">Expertise</a>
-      <a href="#projects">Projects</a>
-      <a href="#journey">Journey</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="nav-cta" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener">GitHub ↗</a>
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Ravindra Yadav home">
+        <span class="brand-mark">RY</span>
+        <span><strong>Ravindra Yadav</strong><small>Technology & Infrastructure</small></span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#learning">Learning</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="github-button" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
   </header>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-grid"></div>
+  <main id="top">
+    <section class="hero container">
       <div class="hero-copy">
-        <p class="eyebrow"><span></span> TECHNOLOGY • INFRASTRUCTURE • SECURITY</p>
-        <h1>Engineering <em>reliable</em><br>technology.</h1>
-        <p class="hero-text">
-          I build, operate and explore technology across networking, storage,
-          virtualization, security, containers and automation.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#expertise">Explore my expertise</a>
-          <a class="button secondary" href="#contact">Get in touch</a>
-        </div>
+        <p class="eyebrow">TECHNOLOGY · INFRASTRUCTURE · OPERATIONS</p>
+        <h1>Building technology that is <span>reliable, practical and maintainable.</span></h1>
+        <p class="lead">I work across infrastructure, Linux systems, networking, virtualization, containers, storage, security and automation — with a strong preference for hands-on problem solving.</p>
+        <div class="actions"><a class="button primary" href="#projects">View projects</a><a class="button" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener">Explore GitHub ↗</a></div>
+        <div class="quick-facts"><span>Linux & Systems</span><span>Networking</span><span>Virtualization</span><span>Containers</span><span>Automation</span></div>
       </div>
-
-      <div class="hero-orbit" aria-hidden="true">
-        <div class="orbit orbit-1"></div>
-        <div class="orbit orbit-2"></div>
-        <div class="orbit orbit-3"></div>
-        <div class="core">RY</div>
-      </div>
-
-      <div class="scroll-note">SCROLL TO EXPLORE <span>↓</span></div>
+      <aside class="profile-card" aria-label="Professional focus">
+        <div class="card-label">CURRENT FOCUS</div>
+        <h2>Infrastructure<br>from the ground up.</h2>
+        <ul><li>Designing and troubleshooting practical infrastructure</li><li>Building repeatable labs and self-hosted services</li><li>Improving reliability, security and operational visibility</li><li>Documenting solutions so they can be maintained</li></ul>
+      </aside>
     </section>
 
-    <section id="about" class="section about">
-      <div class="section-label">01 / ABOUT</div>
-      <div class="section-content two-col">
-        <div>
-          <p class="kicker">A practical technology mindset</p>
-          <h2>Technology should<br><span>work beautifully.</span></h2>
-        </div>
-        <div class="copy">
-          <p>
-            I’m Ravindra Yadav, a technology professional with a strong interest
-            in infrastructure and the systems behind dependable digital services.
-          </p>
-          <p>
-            My interests span networking, storage, network security,
-            virtualization, Docker and containers, Raspberry Pi and hands-on
-            technology labs. I enjoy understanding how systems work end-to-end
-            and turning that knowledge into practical solutions.
-          </p>
-          <div class="signature">RAVINDRA YADAV <span>•</span> TECH & INFRASTRUCTURE</div>
+    <section id="about" class="section alt">
+      <div class="container grid-2">
+        <div><p class="section-number">01 / ABOUT</p><h2>Practical engineering with a systems view.</h2></div>
+        <div class="prose"><p>I’m Ravindra Yadav, a technology professional with a strong interest in infrastructure and the systems behind dependable digital services.</p><p>My technical interests cover Linux administration, networking, storage, security, virtualization, Docker and containers, Raspberry Pi, self-hosted services and automation. I enjoy working from the fundamentals upward: understand the architecture, identify the failure point, implement a clean solution and document it.</p><p>This site is a concise professional profile and a gateway to my technical projects, labs and GitHub work.</p></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container"><p class="section-number">02 / TECHNICAL SKILLS</p><div class="section-title"><h2>Technology stack</h2><p>Core technologies and areas of hands-on interest.</p></div>
+        <div class="skill-grid">
+          <article><h3>Linux & Systems</h3><p>Linux administration, services, permissions, storage, troubleshooting, shell-based operations.</p><div class="tags"><b>Linux</b><b>Ubuntu</b><b>Debian</b><b>Bash</b></div></article>
+          <article><h3>Networking</h3><p>TCP/IP, VLANs, routing, switching, addressing, connectivity analysis and network troubleshooting.</p><div class="tags"><b>TCP/IP</b><b>VLAN</b><b>Routing</b><b>DNS</b></div></article>
+          <article><h3>Virtualization</h3><p>Virtual machines, containers, lab environments, resource planning and infrastructure operations.</p><div class="tags"><b>Proxmox VE</b><b>VMs</b><b>LXC</b><b>HA</b></div></article>
+          <article><h3>Containers & Services</h3><p>Containerized applications, service deployment, self-hosting and repeatable environments.</p><div class="tags"><b>Docker</b><b>Compose</b><b>Nextcloud</b><b>Immich</b></div></article>
+          <article><h3>Security</h3><p>Network segmentation, access control, system hardening and defensive infrastructure practices.</p><div class="tags"><b>ACL</b><b>Hardening</b><b>Segmentation</b><b>VPN</b></div></article>
+          <article><h3>Storage & Backup</h3><p>Storage planning, NAS concepts, backup strategies, recovery planning and data protection.</p><div class="tags"><b>NAS</b><b>Backup</b><b>Rsync</b><b>LVM</b></div></article>
         </div>
       </div>
     </section>
 
-    <section id="expertise" class="section expertise">
-      <div class="section-label">02 / EXPERTISE</div>
-      <div class="section-heading">
-        <p class="kicker">Core areas</p>
-        <h2>Built around <span>systems.</span></h2>
-      </div>
-      <div class="cards">
-        <article class="card"><div class="card-no">01</div><div class="icon">◈</div><h3>Networking</h3><p>LAN/WAN, VLANs, routing, switching, troubleshooting and network design concepts.</p><div class="tags"><span>VLAN</span><span>TCP/IP</span><span>Routing</span></div></article>
-        <article class="card"><div class="card-no">02</div><div class="icon">▣</div><h3>Storage</h3><p>Storage technologies, capacity planning, reliability, performance and infrastructure thinking.</p><div class="tags"><span>NAS</span><span>SAN</span><span>Backup</span></div></article>
-        <article class="card"><div class="card-no">03</div><div class="icon">⌁</div><h3>Security</h3><p>Network security fundamentals, segmentation, access control and defensive infrastructure practices.</p><div class="tags"><span>Security</span><span>ACL</span><span>Hardening</span></div></article>
-        <article class="card"><div class="card-no">04</div><div class="icon">⬡</div><h3>Virtualization</h3><p>Virtual machines, lab environments and infrastructure optimization for flexible workloads.</p><div class="tags"><span>VMs</span><span>Labs</span><span>Hypervisors</span></div></article>
-        <article class="card"><div class="card-no">05</div><div class="icon">◉</div><h3>Containers</h3><p>Docker and container-based environments for repeatable, portable and efficient services.</p><div class="tags"><span>Docker</span><span>Containers</span><span>Linux</span></div></article>
-        <article class="card"><div class="card-no">06</div><div class="icon">⌘</div><h3>Technology Labs</h3><p>Hands-on experimentation with Raspberry Pi, self-hosted services, automation and infrastructure.</p><div class="tags"><span>Raspberry Pi</span><span>Automation</span><span>Homelab</span></div></article>
-      </div>
-    </section>
-
-    <section class="section philosophy">
-      <div class="quote-mark">“</div>
-      <blockquote>Understand the system.<br><span>Then make it better.</span></blockquote>
-      <p>Continuous learning • Hands-on experimentation • Practical engineering</p>
-    </section>
-
-    <section id="projects" class="section projects">
-      <div class="section-label">03 / PROJECTS & LABS</div>
-      <div class="section-heading">
-        <p class="kicker">Selected work</p>
-        <h2>Ideas turned into <span>experiments.</span></h2>
-      </div>
-      <div class="project-list">
-        <a class="project" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener">
-          <div><span class="project-type">GITHUB</span><h3>Infrastructure & Technology</h3><p>Explore repositories, experiments and technical work.</p></div>
-          <span class="arrow">↗</span>
-        </a>
-        <a class="project" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener">
-          <div><span class="project-type">LAB</span><h3>Networking & Security</h3><p>Practical learning around networks, segmentation and secure infrastructure.</p></div>
-          <span class="arrow">↗</span>
-        </a>
-        <a class="project" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener">
-          <div><span class="project-type">LAB</span><h3>Containers & Self-Hosting</h3><p>Docker-based services and experiments for modern infrastructure.</p></div>
-          <span class="arrow">↗</span>
-        </a>
-      </div>
-    </section>
-
-    <section id="journey" class="section journey">
-      <div class="section-label">04 / JOURNEY</div>
-      <div class="section-content two-col">
-        <div>
-          <p class="kicker">Always learning</p>
-          <h2>Experience meets<br><span>curiosity.</span></h2>
-        </div>
-        <div class="timeline">
-          <div class="timeline-item"><span>01</span><div><h3>Infrastructure</h3><p>Building a strong foundation across enterprise technology and systems.</p></div></div>
-          <div class="timeline-item"><span>02</span><div><h3>Networking & Security</h3><p>Deepening practical understanding of connectivity, segmentation and protection.</p></div></div>
-          <div class="timeline-item"><span>03</span><div><h3>Labs & Automation</h3><p>Using hands-on environments to test ideas and continuously expand technical depth.</p></div></div>
+    <section id="experience" class="section alt">
+      <div class="container grid-2">
+        <div><p class="section-number">03 / EXPERIENCE</p><h2>Infrastructure responsibilities</h2><p class="muted">A capability-focused view of the work represented by this profile.</p></div>
+        <div class="responsibilities">
+          <div><span>01</span><div><h3>Infrastructure administration</h3><p>Operate and troubleshoot servers, virtualization environments, storage and supporting services with an emphasis on availability and maintainability.</p></div></div>
+          <div><span>02</span><div><h3>Network operations</h3><p>Diagnose connectivity issues, work with addressing, routing and segmentation, and build a clear understanding of traffic paths and dependencies.</p></div></div>
+          <div><span>03</span><div><h3>Systems & service deployment</h3><p>Deploy Linux-based services and container workloads, manage configurations and keep environments reproducible.</p></div></div>
+          <div><span>04</span><div><h3>Backup, recovery & documentation</h3><p>Design practical backup approaches, validate recovery paths and document procedures so operations do not depend on one person.</p></div></div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section contact">
-      <div class="section-label">05 / CONTACT</div>
-      <div class="contact-box">
-        <p class="kicker">Let's connect</p>
-        <h2>Have a technology<br><span>conversation?</span></h2>
-        <p>For projects, collaboration, technical discussions or simply exchanging ideas.</p>
-        <div class="contact-actions">
-          <a class="button primary" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener">Visit GitHub ↗</a>
-          <a class="button secondary" href="mailto:contact@ravindrakyadav.github.io">Email me</a>
+    <section id="projects" class="section">
+      <div class="container"><p class="section-number">04 / PROJECTS & LABS</p><div class="section-title"><h2>Hands-on work</h2><p>Selected areas represented on GitHub. Add individual repository links here as projects are published.</p></div>
+        <div class="project-grid">
+          <a class="project" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener"><span class="project-index">01</span><div><small>INFRASTRUCTURE LAB</small><h3>Proxmox & Virtualization</h3><p>Virtual machines, LXC containers, storage, networking, backups and infrastructure experiments.</p></div><strong>↗</strong></a>
+          <a class="project" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener"><span class="project-index">02</span><div><small>SELF-HOSTING</small><h3>Docker & Services</h3><p>Containerized applications, self-hosted platforms, configuration and service operations.</p></div><strong>↗</strong></a>
+          <a class="project" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener"><span class="project-index">03</span><div><small>NETWORKING</small><h3>Connectivity & Security Labs</h3><p>Network routing, segmentation, secure remote access and troubleshooting exercises.</p></div><strong>↗</strong></a>
+          <a class="project" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener"><span class="project-index">04</span><div><small>AUTOMATION</small><h3>Scripts & Operations</h3><p>Practical scripts and utilities for repeatable administration, monitoring and backup workflows.</p></div><strong>↗</strong></a>
         </div>
       </div>
     </section>
+
+    <section id="learning" class="section alt">
+      <div class="container grid-2">
+        <div><p class="section-number">05 / CERTIFICATIONS & LEARNING</p><h2>Continuous technical development.</h2></div>
+        <div class="learning-list">
+          <div><span>LABS</span><h3>Hands-on infrastructure practice</h3><p>Regular experimentation with Linux, Proxmox, containers, networking, storage and self-hosted services.</p></div>
+          <div><span>DOCUMENTATION</span><h3>Learn by building and troubleshooting</h3><p>Technical notes, configuration work and problem-solving workflows are treated as part of the learning process.</p></div>
+          <div><span>CERTIFICATIONS</span><h3>Credentials can be listed here</h3><p>Add verified certification names, issuing organizations and dates as applicable. No unverified credentials are claimed on this page.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stack"><div class="container"><p class="section-number">06 / TECHNOLOGY STACK</p><div class="stack-row"><span>Linux</span><span>Ubuntu</span><span>Debian</span><span>Proxmox VE</span><span>Docker</span><span>Docker Compose</span><span>Raspberry Pi</span><span>Git</span><span>GitHub</span><span>Networking</span><span>NAS</span><span>LVM</span><span>Rsync</span><span>VPN</span></div></div></section>
+
+    <section id="contact" class="section contact"><div class="container contact-box"><p class="section-number">07 / CONTACT</p><h2>Let’s connect on technology.</h2><p>For technical discussions, collaboration, infrastructure projects or sharing practical ideas.</p><div class="actions"><a class="button primary" href="https://github.com/ravindrakyadav" target="_blank" rel="noopener">GitHub ↗</a><a class="button" href="mailto:contact@ravindrakyadav.github.io">Email</a></div></div></section>
   </main>
 
-  <footer>
-    <div class="footer-brand"><span class="brand-mark">RY</span> RAVINDRA YADAV</div>
-    <p>Technology • Infrastructure • Networking • Security</p>
-    <a href="#home">BACK TO TOP ↑</a>
-  </footer>
-
+  <footer><div class="container footer-wrap"><div><strong>RAVINDRA YADAV</strong><span>Technology · Infrastructure · Systems</span></div><div>© 2026 · Built for GitHub Pages</div><a href="#top">Back to top ↑</a></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
