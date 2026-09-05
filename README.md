@@ -1,16 +1,16 @@
-# Hi, I'm Ravindra Kr Yadav 👋
+# Hi, I'm Ravindra Kr Yadav 
 
-### IT Infrastructure & Systems Administrator
+### An IT Infrastructure & Systems Administrator
 
 I am an experienced IT Infrastructure and Systems Administrator with **25+ years of experience** in planning, developing, implementing, managing, and supporting complete IT infrastructure environments.
 
-My expertise spans **enterprise infrastructure development, centralized server services, system administration, network infrastructure, storage, backup and recovery, information security, virtualization, private cloud, and infrastructure support**. I have experience in designing and maintaining dependable IT environments that support day-to-day operations, organizational services, users, applications, and business-critical workloads.
+My expertise spans **Enterprise Infrastructure Development, Centralized Server services, System Administration, Network Infrastructure, Storage, Backup and Recovery, Information Security, Virtualization, Private Cloud, and Infrastructure Support**. I have experience in designing and maintaining dependable IT environments that support day-to-day operations, organizational services, users, applications, and business-critical workloads.
 
-My work involves managing **centralized IT services and server infrastructure**, including deployment, configuration, maintenance, monitoring, performance optimization, troubleshooting, capacity planning, backup, disaster recovery, and infrastructure lifecycle management.
+My work involves managing **Centralized IT services and server infrastructure**, including deployment, configuration, maintenance, monitoring, performance optimization, troubleshooting, capacity planning, backup, disaster recovery, and infrastructure lifecycle management.
 
-I have broad experience across **Linux and Windows environments, physical and virtual servers, network infrastructure, storage platforms, security systems, centralized services, virtualization platforms, cloud/private-cloud environments, and infrastructure automation**.
+I have broad experience across **Linux and Windows environments, Physical and Virtual servers, Network Infrastructure, Storage Platforms, Security systems, Centralized services, Virtualization Platforms, Cloud/ Private-cloud Environments, and Infrastructure Automation**.
 
-I focus on building infrastructure that is **reliable, secure, scalable, maintainable, and cost-effective**, while ensuring high availability of essential IT services and minimizing operational downtime.
+I focus on building infrastructure that is **Reliable, Secure, Scalable, Maintainable, and Cost-effective**, while ensuring high availability of essential IT services and minimizing operational downtime.
 
 ### Areas of Expertise
 
