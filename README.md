@@ -1,37 +1,21 @@
-# Ravindra Yadav — GitHub Pages Profile
+# Ravindra Yadav — Professional GitHub Homepage
 
-A clean, lightweight professional technology profile designed for `ravindrakyadav.github.io`.
+A plain, lightweight professional profile designed for GitHub Pages.
 
-## Design goals
-- White/light background with restrained gold and black branding
-- Minimal JavaScript and no animation libraries
-- System fonts for faster loading and fewer external requests
-- Mobile-friendly responsive layout
-- Clear sections for skills, experience, projects/labs, learning, stack and contact
-- Direct GitHub links and accessible semantic HTML
+## Design
+- White/light background
+- Black/dark typography with restrained gold accent
+- No animations
+- No external fonts
+- Minimal JavaScript
+- Mobile responsive
+- Focus on professional profile, technical capabilities, experience, projects, learning and contact
 
-## Deploy
-1. Put these files in the root of the `ravindrakyadav.github.io` repository.
-2. Commit and push to `main`.
-3. GitHub → **Settings → Pages** → **Deploy from a branch** → `main` → `/ (root)`.
-4. Open `https://ravindrakyadav.github.io/`.
-
-## Customize before publishing
-- Replace the placeholder email address in `index.html`.
-- Add verified certifications and actual employment history where indicated.
-- Replace the four project links with direct repository URLs as repositories are published.
-- Update the technology stack to match your current production experience.
-
-
-## Design variant: Academic profile
-
-This version uses a restrained academic/CV aesthetic:
-- warm paper background
-- serif editorial typography
-- navy and muted-gold accents
-- journal-like section rules
-- compact technical metadata
-- no external font or animation dependency
-- responsive layout suitable for GitHub Pages
-
-Replace placeholder project and contact links with your actual repositories and professional details.
+## Before publishing
+Update:
+- GitHub URL
+- professional email
+- LinkedIn URL
+- verified certifications
+- project descriptions and repository links
+- any employer/role information you want displayed
