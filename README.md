@@ -1,4 +1,4 @@
-# Hi, I'm Ravindra Kumar Yadav 👋
+# Hi, I'm Ravindra Kr Yadav 👋
 
 ### IT Infrastructure & Systems Administrator
 
