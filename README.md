@@ -21,3 +21,17 @@ A clean, lightweight professional technology profile designed for `ravindrakyada
 - Add verified certifications and actual employment history where indicated.
 - Replace the four project links with direct repository URLs as repositories are published.
 - Update the technology stack to match your current production experience.
+
+
+## Design variant: Academic profile
+
+This version uses a restrained academic/CV aesthetic:
+- warm paper background
+- serif editorial typography
+- navy and muted-gold accents
+- journal-like section rules
+- compact technical metadata
+- no external font or animation dependency
+- responsive layout suitable for GitHub Pages
+
+Replace placeholder project and contact links with your actual repositories and professional details.
